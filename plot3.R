@@ -1,3 +1,10 @@
+# This script produces the energy sub metering 3-series plots. It is
+# intended to be used with the full dataset file "household_power_consumption.txt",
+# which should be present in the same directory as this script.
+#
+# The file that it produces is placed in the "figure" directory and is named
+# plot3.png
+
 file <- "household_power_consumption.txt"
 outfile <- "figure/plot3.png"
 

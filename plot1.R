@@ -1,3 +1,10 @@
+# This script produces the histogram plot for global active power. It is
+# intended to be used with the full dataset file "household_power_consumption.txt",
+# which should be present in the same directory as this script.
+#
+# The file that it produces is placed in the "figure" directory and is named
+# plot1.png
+
 file <- "household_power_consumption.txt"
 outfile <- "figure/plot1.png"
 
